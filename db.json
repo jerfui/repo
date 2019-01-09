@@ -1,0 +1,61 @@
+{
+  "posts": [
+    { "id": 1, "title": "json-server", "author": "typicode" }
+  ],
+  "comments": [
+    { "id": 1, "body": "some comment", "postId": 1 }
+  ],
+  "profile": { "name": "typicode" },
+  "employees": [
+    {
+      "id": 1,
+      "first_name": "Sebastian",
+      "last_name": "Eschweiler",
+      "email": "sebastian@codingthesmartway.com"
+    },
+    {
+      "id": 2,
+      "first_name": "Steve",
+      "last_name": "Palmer",
+      "email": "steve@codingthesmartway.com"
+    },
+    {
+      "id": 3,
+      "first_name": "Ann",
+      "last_name": "Smith",
+      "email": "ann@codingthesmartway.com"
+    }
+  ],
+  "balances": [
+    {
+		"id": "7109000900003026",
+		"cardPointBalance": 50000.05,
+		"thaiFirstName": "3709",
+		"engTitle": "Mr.",
+		"engLastName": "TTEST3709",
+		"mCardNum": "7109000900003026",
+		"cardPointExpiry": 100.05,
+		"engFirstName": "TEST3709",
+		"thaiLastName": "3709",
+		"poolCardTypeId": "10",
+		"thaiTitle": "",
+		"cardPointExpiryDate": "2019-01-01",
+		"cardExpiryDate": "2020-12"
+    },
+    {
+		"id": "7109000900003029",
+		"cardPointBalance": 40000.05,
+		"thaiFirstName": "3709",
+		"engTitle": "Mr.",
+		"engLastName": "TTEST3709222",
+		"mCardNum": "7109000900003029",
+		"cardPointExpiry": 100.05,
+		"engFirstName": "TEST3709",
+		"thaiLastName": "3709",
+		"poolCardTypeId": "10",
+		"thaiTitle": "",
+		"cardPointExpiryDate": "2019-01-01",
+		"cardExpiryDate": "2020-12"
+    }
+  ]
+}

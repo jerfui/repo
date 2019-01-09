@@ -1,0 +1,9 @@
+{
+  "/api/*": "/$1",
+  "/:resource/:id/show": "/:resource/:id",
+  "/posts/:category": "/posts?category=:category",
+  "/articles\\?id=:id": "/posts/:id",
+  "/v2/crossproduct-operations/rewards/rewardpoints/mcard/:mCardNum": "/balances/:mCardNum",
+  "/balances/:mCardNum": "/balances/:mCardNum"
+}
+
